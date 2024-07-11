@@ -21,23 +21,33 @@ a{
     background-color: #000000;
     align-items: center;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
     padding-right: 120px;
     padding-left: 120px;
+    gap : 20px;
 
 }
 .second{
     background-color: white;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    gap : 20px;
+    justify-content: center;
 }
 .third{
     background-color: #E5E7EB;
 }
-.fouth{
+.fourth{
     background-color: white;
 }
 
-.header{
+.first .header{
     align-self: stretch;
     display: flex;
     justify-content: space-between;
@@ -98,4 +108,33 @@ button{
     align-items: center;
     justify-content: center;
     color: gray;
+}
+.second .header{
+    font-weight: bold;    
+    color: black;
+}
+.second .content{
+    flex: 1;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap : 5px;
+    justify-content: space-between;
+}
+.illustration
+{   flex: 1;
+    border : solid blue 3px;
+    
+    border-radius: 7px;
+ 
+    
+    
 }
